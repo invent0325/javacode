@@ -3,8 +3,12 @@ public class ConstructExampleClass {
 
         Pup p = new Pup("Kramer", 3);
         System.out.println(p);
+
         Pup p1 = new Pup("Jarome", 8, "Dallas");
         System.out.println(p1);
+
+        Pup p2 = new Pup("Cuban", "Delaware");
+        System.out.println(p2);
     }
 
     public static class Pup {
@@ -20,6 +24,11 @@ public class ConstructExampleClass {
         public Pup(String name, int age, String location ) {
             this.name = name;
             this.age = age;
+            this.location = location;
+        }
+
+        public Pup(String name, String location) {
+            this.name = name;
             this.location = location;
         }
 
