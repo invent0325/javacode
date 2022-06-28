@@ -1,8 +1,7 @@
 public class Cheese {
     private int levelOfStinkiness;
 
-    public Cheese(int levelOfStinkiness) {
-        this.levelOfStinkiness = levelOfStinkiness;
+    public Cheese() {
     }
 
     public int getLevelOfStinkiness() {
