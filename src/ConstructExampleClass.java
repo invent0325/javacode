@@ -1,6 +1,9 @@
 public class ConstructExampleClass {
     public static void main(String[] args) {
 
+        Pup pCons = new Pup();
+        System.out.println(pCons);
+
         Pup p = new Pup("Kramer", 3);
         System.out.println(p);
 
@@ -15,6 +18,9 @@ public class ConstructExampleClass {
         String name;
         int age;
         String location;
+
+        public Pup() {
+        }
 
         public Pup(String name, int age ) {
             this.name = name;
