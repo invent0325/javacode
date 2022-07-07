@@ -4,8 +4,8 @@ public class mainTransport {
         Transportation train = new Train();
         Transportation flight = new Flight();
 
-        System.out.println(train.toString());
-        System.out.println(flight.toString());
+        System.out.println(train);
+        System.out.println(flight);
 
     }
 }
